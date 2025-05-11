@@ -1,0 +1,66 @@
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  background-color: #0f0f0f;
+  color: #e0e0e0;
+}
+header {
+  background-color: #202020;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 2px solid #00ff88;
+}
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+  color: #00ff88;
+}
+nav {
+  background-color: #1a1a1a;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #333;
+}
+nav a {
+  color: #00ffaa;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+section {
+  padding: 30px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+h2 {
+  color: #00ff88;
+}
+footer {
+  background-color: #101010;
+  text-align: center;
+  padding: 15px;
+  font-size: 0.9em;
+  border-top: 1px solid #333;
+}
+.modules {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 20px;
+}
+.module-card {
+  background-color: #1e1e1e;
+  border: 1px solid #333;
+  padding: 15px;
+  flex: 1 1 280px;
+  border-radius: 6px;
+}
+.module-card h3 {
+  margin-top: 0;
+  color: #00ffaa;
+}
