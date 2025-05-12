@@ -69,8 +69,8 @@ footer {
   padding-left: 20px;
 }
 .module-img {
-  width: 100%;
-  max-width: 1500px;
+  width: 50%;
+  max-width: 500px;
   margin-bottom: 10px;
   border-radius: 6px;
   border: 1px solid #444;
