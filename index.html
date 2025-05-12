@@ -29,7 +29,7 @@
   <ul>
     <li><strong>PLS – Power Logic Supply</strong>: fornisce tutte le tensioni ausiliarie necessarie per il funzionamento del sistema di controllo (PLC), con raffreddamento dinamico gestito da una NTC.</li>
     <li><strong>PLC – Power Logic Control</strong>: cuore del sistema di protezione, limita la corrente al carico grazie al potenziometro di regolazione e monitora in tempo reale corrente e potenza, intervenendo tramite relè per prevenire guasti.</li>
-    <li><strong>PLM – Power Logic Main</strong>: modulo di potenza, gestisce la regolazione della tensione e fornisce corrente al carico, garantendo stabilità e sicurezza.</li>
+    <li><strong>PLM – Power Logic Main</strong>: modulo di potenza, sfrutta tre <strong>LM317</strong> per il ramo positivo e tre <strong>LM337</strong> al negativo, per gestire tensioni superiori al limite massimo di ingresso/uscita (40Vmax) permesse da un singolo LM, suddividendo equamente le differenze di tensioni IN/OUT a soli 20V. Fornisce corrente al carico con il supporto di un <strong>MJH11021G</strong> sul ramo positivo e un <strong>MJH11022G</strong> sul ramo negativo. Un ulteriore <strong>MJH11022G</strong> pilotato dal <strong>PLC</strong> gestisce le correnti in uscita garantendo stabilità e sicurezza.</li>
   </ul>
 
   <p>Pensato per <strong>hobbisti evoluti</strong> e <strong>studenti</strong>, Power Logic unisce <strong>precisione analogica</strong> e <strong>logica di protezione smart</strong>, offrendo uno strumento potente e flessibile per ogni laboratorio elettronico.</p>
