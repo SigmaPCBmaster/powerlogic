@@ -75,6 +75,13 @@ footer {
   border-radius: 6px;
   border: 1px solid #444;
 }
+  .img {
+  width: 100%;
+  max-width: 500px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  border: 1px solid #444;
+}
 table {
   width: 100%;
   border-collapse: collapse;
