@@ -57,9 +57,9 @@ footer {
   background-color: #1e1e1e;
   border: 1px solid #333;
   padding: 15px;
-  flex: 1 1 280px;
+  flex: 1 1 1000px;
   border-radius: 6px;
-  max-width: 320px;
+  max-width: 600px;
 }
 .module-card h3 {
   margin-top: 10px;
