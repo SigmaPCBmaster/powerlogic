@@ -1,4 +1,3 @@
-
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
@@ -52,6 +51,7 @@ footer {
   flex-wrap: wrap;
   gap: 30px;
   margin-top: 20px;
+  justify-content: center;
 }
 .module-card {
   background-color: #1e1e1e;
@@ -59,8 +59,20 @@ footer {
   padding: 15px;
   flex: 1 1 280px;
   border-radius: 6px;
+  max-width: 320px;
 }
 .module-card h3 {
-  margin-top: 0;
+  margin-top: 10px;
   color: #00ffaa;
 }
+.module-card ul {
+  padding-left: 20px;
+}
+.module-img {
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  border: 1px solid #444;
+}
+Aggiornato stile CSS con supporto immagini moduli
