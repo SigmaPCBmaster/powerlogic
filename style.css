@@ -71,6 +71,7 @@ footer {
 .module-img {
   width: 50%;
   max-width: 500px;
+  object-fit: contain;
   margin-bottom: 10px;
   border-radius: 6px;
   border: 1px solid #444;
