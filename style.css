@@ -79,6 +79,7 @@ footer {
 .img {
   width: 100%;
   max-width: 500px;
+  object-fit: contain;
   margin-bottom: 10px;
   border-radius: 6px;
   border: 0px solid #444;
