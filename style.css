@@ -78,6 +78,16 @@ footer {
   border-radius: 6px;
   border: 1px solid #444;
 }
+.module-img1 {
+  width: 100%;
+  max-width: 800px;
+  max-height: 200px;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto 10px auto;
+  border-radius: 6px;
+  border: 1px solid #444;
+}
 .img {
   width: 100%;
   max-width: 500px;
