@@ -95,8 +95,8 @@ table {
   box-shadow: 0 0 10px rgba(0, 255, 136, 0.2);
 }
 .shop-button {
-  display: inline-block;
-  margin-top: 10px;
+  display: block;                /* Da inline a blocco */
+  margin: 10px auto 0 auto;      /* Margine top + centratura orizzontale */
   padding: 8px 15px;
   background-color: #00ffaa;
   color: #000;
@@ -104,6 +104,7 @@ table {
   border: none;
   border-radius: 4px;
   text-decoration: none;
+  text-align: center;
   transition: background-color 0.3s ease;
 }
 
