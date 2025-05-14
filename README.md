@@ -8,3 +8,4 @@ PLM – Power Logic Main: modulo di potenza, sfrutta tre LM317 per il ramo posit
 Pensato per hobbisti evoluti e studenti, Power Logic unisce precisione analogica e logica di protezione smart, offrendo uno strumento potente e flessibile per ogni laboratorio elettronico.
 
 💡 I moduli PLS e PLC possono anche essere integrati singolarmente in sistemi già esistenti per offrire tutta la protezione di Power Logic.
+Vai su: https://sigmapcbmaster.github.io/powerlogic/
