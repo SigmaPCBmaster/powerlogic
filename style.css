@@ -112,6 +112,12 @@ table {
   background-color: #00ddaa;
   color: #000;
 }
+.shop-button[disabled] {
+  background-color: #cccccc;
+  color: #666;
+  cursor: not-allowed;
+  border: 1px solid #999;
+}
 
 th, td {
   border: 1px solid #333;
