@@ -1,11 +1,52 @@
-Power Logic è un sistema modulare per il controllo e la gestione intelligente dell'alimentazione nei banchi di test elettronici.
+# ⚡ Power Logic
 
-Progettato per offrire massima affidabilità e protezione attiva, Power Logic si compone di tre moduli indipendenti ma perfettamente integrabili:
+**Power Logic** è un sistema modulare per il controllo e la gestione intelligente dell'alimentazione nei banchi di test elettronici.  
+Progettato per offrire **massima affidabilità e protezione attiva**, Power Logic si compone di **tre moduli indipendenti**, ma perfettamente integrabili:
 
-PLS – Power Logic Supply: fornisce tutte le tensioni ausiliarie necessarie per il funzionamento del sistema di controllo (PLC), con raffreddamento dinamico gestito da una NTC.
-PLC – Power Logic Control: cuore del sistema di protezione, limita la corrente al carico grazie al potenziometro di regolazione e monitora in tempo reale corrente e potenza, intervenendo tramite relè per prevenire guasti.
-PLM – Power Logic Main: modulo di potenza, sfrutta tre LM317 per il ramo positivo e tre LM337 al negativo, per gestire tensioni superiori al limite massimo di ingresso/uscita (40Vmax) permesse da un singolo LM, suddividendo equamente le differenze di tensioni IN/OUT a soli 20V. Fornisce corrente al carico con il supporto di un MJH11021G sul ramo positivo e un MJH11022G sul ramo negativo. Un ulteriore MJH11022G pilotato dal PLC gestisce le correnti in uscita garantendo stabilità e sicurezza.
-Pensato per hobbisti evoluti e studenti, Power Logic unisce precisione analogica e logica di protezione smart, offrendo uno strumento potente e flessibile per ogni laboratorio elettronico.
+---
 
-💡 I moduli PLS e PLC possono anche essere integrati singolarmente in sistemi già esistenti per offrire tutta la protezione di Power Logic.
-Vai su: https://sigmapcbmaster.github.io/powerlogic/
+## 🔌 Moduli Principali
+
+### 🔋 PLS – Power Logic Supply
+- Generazione delle tensioni di servizio (±15V, +12V, +5V).
+- Raffreddamento proporzionale alla temperatura (NTC + ventola).
+
+### 🧠 PLC – Power Logic Control
+- Gestione soglie di corrente e potenza.
+- Controllo corrente tramite operazionale differenziale.
+- Distacco carico con intervento a relè.
+- LED di segnalazione limite raggiunto.
+
+### ⚙️ PLM – Power Logic Main
+- Regolazione di tensione con tre coppie di LM317/LM337 in cascata.
+- Sistema di alimentazione duale da ±1,5V a ±60V (fino a 120V in serie).
+- Erogazione e gestione corrente tramite Darlington.
+- Corrente massima gestita fino a 10A
+
+---
+
+## 📦 A chi è destinato?
+- Maker
+- Studenti
+- Appassionati di elettronica analogica
+- Tecnici da banco
+
+---
+
+## 📄 Documentazione
+👉 Scheda di collaudo disponibile qui:  
+[📥 Scarica PDF di collaudo](https://sigmapcbmaster.github.io/powerlogic/Schede_Collaudo_PL.pdf)
+
+---
+
+## 🌐 Sito ufficiale
+[🔗 https://sigmapcbmaster.github.io/powerlogic](https://sigmapcbmaster.github.io/powerlogic)
+
+---
+
+## 🚧 Stato del progetto
+- ✅ Progettazione completata
+- 🛠️ Prototipazione in corso
+- 🔬 Test in corso
+- 🛠️ PDF tecnico in fase di completamento
+- 🛒 Fase di preparazione shop online
